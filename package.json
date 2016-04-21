@@ -1,0 +1,30 @@
+{
+  "name": "ng2-gravatar",
+  "version": "1.0.0",
+  "description": "Angular2 gravatar directive",
+  "main": "gravatar.js",
+  "typings": "gravatar.d.ts",
+  "scripts": {
+    "prepublish": "typings install && tsc"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "gravatar",
+    "directive"
+  ],
+  "author": "Tomasz Bak <t.bak@selleo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1",
+    "zone.js": "^0.6.12"
+  },
+  "peerDependencies": {
+    "angular2": "^2.0.0-beta.10",
+    "md5": "^2.1.0"
+  }
+}
