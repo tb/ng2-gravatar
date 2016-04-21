@@ -1,5 +1,5 @@
 {
-  "name": "ng2-gravatar",
+  "name": "ng2-gravatar-directive",
   "version": "1.0.0",
   "description": "Angular2 gravatar directive",
   "main": "gravatar.js",

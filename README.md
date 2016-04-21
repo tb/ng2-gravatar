@@ -4,7 +4,7 @@ Angular2 gravatar directive
 
 ## Install
 
-    npm i --save md5 tb/ng2-gravatar
+    npm i --save md5 ng2-gravatar-directive
 
 ## Import
 
