@@ -1,4 +1,4 @@
-# ng2-gravatar
+# ng2-gravatar-directive
 
 Angular2 gravatar directive
 
