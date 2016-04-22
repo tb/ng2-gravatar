@@ -8,7 +8,7 @@ Angular2 gravatar directive
 
 ## Import
 
-    import {Gravatar} from 'ng2-gravatar';
+    import {Gravatar} from 'ng2-gravatar-directive';
 
 ## Usage
 
