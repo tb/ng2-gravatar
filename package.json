@@ -1,6 +1,6 @@
 {
   "name": "ng2-gravatar-directive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angular2 gravatar directive",
   "main": "gravatar.js",
   "typings": "gravatar.d.ts",
