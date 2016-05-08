@@ -1,4 +1,4 @@
-import {Directive, ElementRef, Input} from 'angular2/core';
+import {Directive, ElementRef, Input} from '@angular/core';
 let md5 = require('md5');
 
 @Directive({
