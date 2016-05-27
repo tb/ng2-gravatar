@@ -1,11 +1,11 @@
 {
   "name": "ng2-gravatar-directive",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Angular2 gravatar directive",
   "main": "src/gravatar.js",
   "typings": "src/gravatar.d.ts",
   "scripts": {
-    "build": "typings install && tslint src/*.ts && tsc"
+    "build": "typings install && tsc"
   },
   "keywords": [
     "angular2",
@@ -31,7 +31,7 @@
     "rxjs": "^5.0.0-beta.6",
     "tslint": "^3.9.0",
     "typescript": "^1.8.10",
-    "typings": "^0.8.1",
+    "typings": "^1.0.4",
     "zone.js": "^0.6.12"
   },
   "peerDependencies": {

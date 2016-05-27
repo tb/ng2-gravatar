@@ -2,7 +2,7 @@
   "name": "ng2-gravatar-directive",
   "version": false,
   "devDependencies": {},
-  "ambientDependencies": {
+  "globalDependencies": {
     "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
     "require": "registry:dt/require#2.1.20+20160316155526"
   }
