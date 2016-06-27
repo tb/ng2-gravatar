@@ -7,10 +7,11 @@ let md5 = require('md5');
 export class Gravatar {
   @Input('email') email: string;
   @Input('size') size: number = 16;
+  @Input('fallback') fallback: string = 'mm';
 
   constructor(private elementRef: ElementRef) {}
 
   ngOnInit() {
-    this.elementRef.nativeElement.src = `http://www.gravatar.com/avatar/${md5(this.email)}?s=${this.size}`;
+    this.elementRef.nativeElement.src = `http://www.gravatar.com/avatar/${md5(this.email)}?s=${this.size}&d=${this.fallback}`;
   }
 }
