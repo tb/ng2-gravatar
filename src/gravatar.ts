@@ -12,6 +12,6 @@ export class Gravatar {
   constructor(private elementRef: ElementRef) {}
 
   ngOnInit() {
-    this.elementRef.nativeElement.src = `http://www.gravatar.com/avatar/${md5(this.email)}?s=${this.size}&d=${this.fallback}`;
+    this.elementRef.nativeElement.src = `https://www.gravatar.com/avatar/${md5(this.email)}?s=${this.size}&d=${this.fallback}`;
   }
 }
