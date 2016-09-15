@@ -1,6 +1,6 @@
 {
   "name": "ng2-gravatar-directive",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Angular2 gravatar directive",
   "main": "src/gravatar.js",
   "typings": "src/gravatar.d.ts",
@@ -26,19 +26,19 @@
     "md5": "^2.1.0"
   },
   "devDependencies": {
-    "@angular/common": "^2.0.0-rc.5",
-    "@angular/core": "^2.0.0-rc.5",
+    "@angular/common": "^2.0.0",
+    "@angular/core": "^2.0.0",
     "es6-shim": "^0.35.0",
     "md5": "^2.1.0",
     "reflect-metadata": "^0.1.2",
-    "rxjs": "^5.0.0-beta.6",
+    "rxjs": "^5.0.0-beta.12",
     "tslint": "^3.9.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4",
-    "zone.js": "^0.6.12"
+    "zone.js": "^0.6.21"
   },
   "peerDependencies": {
-    "@angular/common": "^2.0.0-rc.0",
-    "@angular/core": "^2.0.0-rc.0"
+    "@angular/common": "^2.0.0",
+    "@angular/core": "^2.0.0"
   }
 }
