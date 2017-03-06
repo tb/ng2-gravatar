@@ -12,6 +12,10 @@ Angular2 gravatar directive
 
 ## Usage
 
+    @NgModule({
+        declarations: [ Gravatar ]
+    })
+    
     <img gravatar [email]="user.email" [size]="16">
     
 ## License
