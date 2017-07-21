@@ -5,7 +5,10 @@
   "main": "src/gravatar.js",
   "typings": "src/gravatar.d.ts",
   "scripts": {
-    "build": "typings install && tsc"
+    "build": "typings install && tsc",
+    "clean": "rimraf typings/ src/*.js src/*.d.ts",
+    "prepublish": "npm run build",
+    "postpublish": "npm run clean"
   },
   "keywords": [
     "angular2",
@@ -31,6 +34,7 @@
     "es6-shim": "^0.35.0",
     "md5": "^2.1.0",
     "reflect-metadata": "^0.1.2",
+    "rimraf": "^2.6.1",
     "rxjs": "^5.0.0-beta.12",
     "tslint": "^3.9.0",
     "typescript": "^2.4.2",
