@@ -1,10 +1,10 @@
 import {Directive, ElementRef, Input} from '@angular/core';
-let md5 = require('md5');
+import * as md5 from 'md5';
 
 @Directive({
   selector: '[gravatar]'
 })
-export class Gravatar {
+export class GravatarDirective {
   @Input('email') email: string;
   @Input('size') size: number = 16;
   @Input('fallback') fallback: string = 'mm';
