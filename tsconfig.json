@@ -14,7 +14,7 @@
     "node_modules"
   ],
   "files": [
-    "src/gravatar.ts",
+    "src/index.ts",
     "typings/index.d.ts"
   ]
 }
