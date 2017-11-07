@@ -22,6 +22,6 @@ export class GravatarDirective implements OnChanges {
   }
 
   setUrlGravatar(email: string) {
-    this.elementRef.nativeElement.src = `//www.gravatar.com/avatar/${md5(email)}?s=${this.size}&d=${this.fallback}`;
+    this.elementRef.nativeElement.src = `https://www.gravatar.com/avatar/${md5(email)}?s=${this.size}&d=${this.fallback}`;
   }
 }
