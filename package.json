@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@angular/common": "^2.0.0",
-    "@angular/core": "^2.0.0",
+    "@angular/core": "^11.0.5",
     "es6-shim": "^0.35.0",
     "reflect-metadata": "^0.1.2",
     "rimraf": "^2.6.1",
@@ -43,6 +43,6 @@
   },
   "peerDependencies": {
     "@angular/common": "^2.0.0",
-    "@angular/core": "^2.0.0"
+    "@angular/core": "^11.0.5"
   }
 }
